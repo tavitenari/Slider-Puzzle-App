@@ -1,0 +1,50 @@
+/*
+Tavi Tenari
+CSE154 AK
+
+CSS for Fifteen Puzzle
+*/
+
+body, button, select{
+	font-family: cursive;
+	font-size: 14pt;
+	text-align: center;
+}
+
+#puzzlearea{
+	height: 400px;
+	margin: auto;
+	position: relative;
+	width: 400px;
+}
+
+.colorBlack{
+	border: 5px solid black;
+	color: black;
+	cursor: default;
+}
+
+.colorRed{
+	border: 5px solid red;
+	color: red;
+	cursor: pointer;
+}
+
+#puzzlearea > div{
+	font-size: 40pt;
+	height: 90px;
+	position: absolute;
+	width: 90px;
+}
+
+.default{
+	background-image: url("https://webster.cs.washington.edu/students/tenarii/hw4/background.jpg");
+}
+
+.scaryface{
+	background-image: url("https://webster.cs.washington.edu/students/tenarii/hw4/background2.jpeg");
+}
+
+.xfiles{
+	background-image: url("https://webster.cs.washington.edu/students/tenarii/hw4/background3.jpg");
+}
